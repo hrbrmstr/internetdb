@@ -4,15 +4,17 @@
 \name{internetdb}
 \alias{internetdb}
 \alias{internetdb-package}
-\title{...}
+\title{Fast IP Lookups for Open Ports and Vulnerabilities}
 \description{
-A good description goes here otherwise CRAN checks fail.
+Shodan \url{https://shodan.io/} scans the internet for hosts and services and maintains a few
+APIs into that data. One API is the InternetDB \url{https://internetdb.shodan.io/}, which allows for
+free querying of open ports and vulnerabilities. Tools are provided to query this servce.
 }
 \seealso{
 Useful links:
 \itemize{
-  \item \url{https://git.rud.is/hrbrmstr/internetdb}
-  \item Report bugs at \url{https://git.rud.is/hrbrmstr/internetdb/issues}
+  \item \url{https://github.com/hrbrmstr/internetdb}
+  \item Report bugs at \url{https://github.com/hrbrmstr/internetdb/issues}
 }
 
 }
